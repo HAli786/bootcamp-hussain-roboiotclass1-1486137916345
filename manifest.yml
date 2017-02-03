@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bootcamp-hussain-roboiotclass1
+  host: bootcamp-hussain-roboiotclass1
+  disk_quota: 1024M
+  services:
+  - bootcamp-hussain-roboiotclass1-cloudantNoSQLDB
+  - bootcamp-hussain-roboiotclass1-iotf-service
+  - bootcamp-ismaeel-messagehub
